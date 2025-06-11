@@ -1,5 +1,6 @@
 using System.Collections;
 using SHS.Assessment.Observer;
+using SHS.Assessment.Utilities;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +8,6 @@ namespace SHS.Assessment.SceneLoader
 {
     public class SceneLoadHandler : MonoBehaviour
     {
-        [SerializeField] private int gameSceneIndex = 1;
 
         [SerializeField] private LoadScreenHandler LoadPanel;
 
@@ -23,7 +23,7 @@ namespace SHS.Assessment.SceneLoader
 
         private void OnDisable()
         {
-            EventBus.Subscribe(GameEvent.LOAD_GAME, OnGameLoad);
+            EventBus.Unsubscribe(GameEvent.LOAD_GAME, OnGameLoad);
         }
         #endregion
 
@@ -43,7 +43,7 @@ namespace SHS.Assessment.SceneLoader
 
             float fakeProgress = 0f;
 
-            AsyncOperation operation = SceneManager.LoadSceneAsync(gameSceneIndex);
+            AsyncOperation operation = SceneManager.LoadSceneAsync(Helper.GameSceneIndex);
             operation.allowSceneActivation = false;
 
             while (!operation.isDone)
