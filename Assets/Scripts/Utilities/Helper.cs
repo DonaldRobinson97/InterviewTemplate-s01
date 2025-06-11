@@ -7,5 +7,7 @@ namespace SHS.Assessment.Utilities
         public static float DecayRate = 2f;
 
         public static float powerPerTap = 0.5f;
+
+        public static string RopeTag = "Rope";
     }
 }

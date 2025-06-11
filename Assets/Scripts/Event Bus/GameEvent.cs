@@ -4,5 +4,7 @@ namespace SHS.Assessment.Observer
     {
         LOAD_GAME,
         LOAD_LOBBY,
+        GAME_ENDED,
+        GAME_TIMEOUT,
     }
 }
