@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 905fc387bb457f24fb71614c1577b8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bundleUrl: https://yourusername.github.io/unity-assetbundles/mybundle
+  bundleUrl: https://donaldrobinson97.github.io/SHSAssetHolder/assetbundle
   prefabName: BgImage
   spawnPosition: {x: 0, y: 0}
   spawnRotation: {x: 0, y: 0}

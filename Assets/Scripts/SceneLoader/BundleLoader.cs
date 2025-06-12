@@ -8,7 +8,7 @@ namespace SHS.Assessment.SceneLoader
     public class BundleLoader : MonoBehaviour
     {
         [Header("Bundle Config")]
-        [SerializeField] private string bundleUrl = "https://yourusername.github.io/unity-assetbundles/mybundle";
+        [SerializeField] private string bundleUrl = "https://donaldrobinson97.github.io/SHSAssetHolder/assetbundle";
         [SerializeField] private string prefabName = "BgImage";
 
         [Header("Spawn Config")]
