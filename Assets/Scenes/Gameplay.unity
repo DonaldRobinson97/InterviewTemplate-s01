@@ -1914,7 +1914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07574e07cab640242b8ce4c796e7bb76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeoutDuration: 10
+  timeoutDuration: 30
   timerText: {fileID: 1706469877}
 --- !u!1 &2104124821
 GameObject:
