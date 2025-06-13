@@ -10,8 +10,8 @@ namespace SHS.Assessment.Utilities
 
         public static string RopeTag = "Rope";
 
-        public static int LobbySceneIndex = 0;
+        public static int LobbySceneIndex = 1;
 
-        public static int GameSceneIndex = 1;
+        public static int GameSceneIndex = 2;
     }
 }
